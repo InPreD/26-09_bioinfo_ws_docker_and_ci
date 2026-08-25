@@ -1,0 +1,10 @@
+{
+  "name": "26-09_bioinfo_ws_docker_and_ci",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.14-trixie",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:4": {
+      "moby": false
+    },
+    "ghcr.io/jajera/features/ag:1": {}
+  }
+}
